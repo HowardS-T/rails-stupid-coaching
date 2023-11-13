@@ -1,0 +1,7 @@
+<div class="container">
+  <h1 class="bg-warning">PLEASE ENTER A QUESTION:</h1>
+  <form action="/answer" data-turbo="false" class="form-outline w-75">
+    <input class="mt-3 input-group-prepend input-group input-group-lg input-group-text inputGroup-sizing-lg" type="text" name="question" value="<%= params[:question] %>">
+    <input type="submit" value="Ask!" class="mt-1 btn btn-warning col-12">
+  </form>
+</div>
